@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="YqR-6P-7Se">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Screen-->
+        <scene sceneID="2w8-Q7-1rN">
+            <objects>
+                <viewController id="YqR-6P-7Se" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1KZ-k2-pn0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="WHAT ARE WE EATING?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="OaJ-JQ-l6K">
+                                <rect key="frame" x="117" y="352" width="159" height="14"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="0.7" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="What are we eating?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="uXQ-NJ-qAF">
+                                <rect key="frame" x="32" y="372" width="329" height="41.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Loading nearby picks…" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="yIA-SJ-0tW">
+                                <rect key="frame" x="108.5" y="421.5" width="176" height="16.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="regular" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="0.55" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="r1a-52-GLP"/>
+                        <color key="backgroundColor" red="0.043137254901960784" green="0.047058823529411764" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OaJ-JQ-l6K" firstAttribute="centerX" secondItem="1KZ-k2-pn0" secondAttribute="centerX" id="3UP-9r-xXm"/>
+                            <constraint firstItem="uXQ-NJ-qAF" firstAttribute="top" secondItem="OaJ-JQ-l6K" secondAttribute="bottom" constant="6" id="4pD-1Q-rdM"/>
+                            <constraint firstItem="uXQ-NJ-qAF" firstAttribute="leading" secondItem="r1a-52-GLP" secondAttribute="leading" constant="32" id="C8m-Ww-eUj"/>
+                            <constraint firstItem="r1a-52-GLP" firstAttribute="trailing" secondItem="uXQ-NJ-qAF" secondAttribute="trailing" constant="32" id="FGt-Zx-YlQ"/>
+                            <constraint firstItem="yIA-SJ-0tW" firstAttribute="top" secondItem="uXQ-NJ-qAF" secondAttribute="bottom" constant="8" id="LrQ-hZ-Fd3"/>
+                            <constraint firstItem="yIA-SJ-0tW" firstAttribute="centerX" secondItem="1KZ-k2-pn0" secondAttribute="centerX" id="S5q-fQ-Jg1"/>
+                            <constraint firstItem="OaJ-JQ-l6K" firstAttribute="centerY" secondItem="1KZ-k2-pn0" secondAttribute="centerY" constant="-70" id="d1j-2Y-GcG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5td-Ti-c5m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79" y="22"/>
+        </scene>
+    </scenes>
+</document>
