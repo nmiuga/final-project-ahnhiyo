@@ -6,7 +6,15 @@ A SwiftUI iOS app for discovering nearby restaurants. You search a location, bro
 
 ## Screenshots
 
-<!-- Will add screenshots after image sizing is dealt with. :( -->
+
+<p>
+  <img src="Screenshots/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2001.05.59.png" width="240" />
+  <img src="Screenshots/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2001.06.52.png" width="240" />
+  <img src="Screenshots/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2001.07.13.png" width="240" />
+  <img src="Screenshots/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2001.07.21.png" width="240" />
+  <img src="Screenshots/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2001.07.31.png" width="240" />
+</p>
+
 
 ---
 
@@ -78,4 +86,3 @@ Nhi Nguyen-Le
 ahnhiyo@gmail.com
 
 ---
-
